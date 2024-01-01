@@ -20,6 +20,17 @@ This requires:
 - `python` - `neovim`
 - `perl`
 
+```bash
+sudo pacman -S neovim npm unzip make cmake clang python python-pip perl texlive
+```
+```bash
+pip install neovim --break-system-packages
+```
+```bash
+sudo npm install -g pyright
+sudo npm install -g neovim
+```
+
 ___
 ### **Telescope-fzf-native.nvim**
 #### Windows
