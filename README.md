@@ -44,3 +44,12 @@ Requires: `Cmake`, `Microsoft C++ build tools` on **Windows**
 'make'
 ```
 Requires: `Make`, `Clang` on **Linux**
+
+___
+
+### Tmux Nvim Colourscheme Fix
+#### Add to ~/.config/tmux/tmux.conf
+```bash
+set -ag terminal-overrides ",xterm-256color:RGB"
+set -g default-terminal "tmux-256color"
+```
