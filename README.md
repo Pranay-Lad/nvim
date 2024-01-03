@@ -21,7 +21,7 @@ This requires:
 - `perl`
 
 ```bash
-sudo pacman -S neovim npm unzip make cmake clang python python-pip perl texlive
+sudo apt-get install neovim npm unzip make cmake clang python python-pip perl texlive texlive-latex-extra cargo
 ```
 ```bash
 pip install neovim --break-system-packages
