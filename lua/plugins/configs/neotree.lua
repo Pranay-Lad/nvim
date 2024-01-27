@@ -13,7 +13,7 @@ return {
 		    enable_diagnostics = false,
 		    window = {
 			    position = "left"
-		    }
+		    },
 		    name = {
 					use_git_colors = false,
 		    },
